@@ -47,6 +47,7 @@ mainUl.on('keyup','input',function(e){
         li.find('span').text(input.val());
         li.removeClass('is-editing');
         save();
+        console.log("test git");
     }
 });
     
